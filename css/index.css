@@ -1,0 +1,100 @@
+header {
+    background-color: rgb(128, 35, 73);
+    text-align: left;
+}
+
+body {
+    background-color: pink;
+}
+
+footer {
+    background-color: rgb(128, 35, 73);
+}
+
+#footText {
+    text-align: center;
+    color: white;
+}
+
+div {
+    /*cada boz de recetas --> html index*/
+    background-color: rgb(240, 211, 223);
+    width: 250px;
+    border: 15px solid rgb(163, 50, 97);
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+    float: center;
+}
+
+.rec {
+    /*parrafo donde se ponen las recetas en el inicio (html index*/
+    text-align: center;
+    font-weight: bold;
+}
+
+#titulo {
+    /*html todos --> recetario de alicia*/
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 250%;
+}
+
+.refheader {
+    /*html todos en la barra de navevacion*/
+    color: white;
+    margin-left: 5px;
+}
+
+.refheader:hover {
+    /*html todos en la barra de navevacion*/
+    color: pink;
+}
+
+.nom_recetas {
+    /*html index*/
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.h2index {
+    /*html index*/
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 150%;
+}
+
+.list_format_index {
+    /*html index para poner los divs al lado (una receta al lado de la otra)*/
+    display: inline;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+.tituloRecetas {
+    /*En los html de cada receta*/
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.main_recetas {
+    /*En los html de cada receta*/
+    text-align: center;
+}
+
+.h2_recetas {
+    /*En los html de cada receta*/
+    text-decoration: underline;
+    font-weight: bold;
+}
