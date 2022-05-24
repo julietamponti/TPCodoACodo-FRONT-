@@ -40,10 +40,6 @@ body {
     flex-direction: column;
 }
 
-.receta:hover {
-    animation: mov_receta 2s;
-}
-
 .flex-container {
     margin: 0 auto;
     padding: 50px;
@@ -126,14 +122,5 @@ a:hover {
     }
     .receta {
         width: 100%;
-    }
-}
-
-@keyframes mov_receta {
-    from {
-        width: 100%;
-    }
-    to {
-        width: 90%;
     }
 }
