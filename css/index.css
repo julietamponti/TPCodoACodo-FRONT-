@@ -1,11 +1,11 @@
 header {
-    background-color: rgb(128, 35, 73);
+    background-color: #9D5353;
     text-align: left;
 }
 
 nav {
     display: flex;
-    background-color: rgb(56, 15, 32);
+    background-color: #632626;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -18,13 +18,13 @@ nav a {
 
 footer {
     display: flex;
-    background-color: rgb(128, 35, 73);
+    background-color: #632626;
     flex-direction: row;
     justify-content: space-around;
 }
 
 body {
-    background-color: pink;
+    background-color: #DACC96;
 }
 
 #footText {
@@ -33,17 +33,22 @@ body {
 }
 
 .receta {
+    width: 30%;
     height: 320px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.flex_container {
+.receta:hover {
+    animation: mov_receta 2s;
+}
+
+.flex-container {
     margin: 0 auto;
     padding: 50px;
     border: 1px solid pink;
-    background: pink;
+    background: #DACC96;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -58,12 +63,13 @@ body {
     text-align: center;
     color: white;
     font-family: 'Amatic SC', cursive;
-    font-size: 250%;
+    font-size: 60px;
 }
 
-.ref_nav:hover {
+a:hover {
     /*html todos en la barra de navevacion*/
-    color: pink;
+    color: #BF8B67;
+    font-size: 18px;
 }
 
 .contenido-receta,
@@ -74,22 +80,38 @@ body {
     background-size: cover;
     background-position: center;
     height: 250px;
-    width: 100;
+    width: 100%;
 }
 
 .textos {
-    color: rgb(56, 15, 32);
+    color: #632626;
     font-family: Verdana;
 }
 
 .h2index {
     width: 100%;
-    color: rgb(47, 4, 22);
+    background-color: #BF8B67;
+    padding: 10px;
+    border-radius: 5px;
+    color: #632626;
+}
+
+@media screen and (max-width: 1024) {
+    .receta {
+        width: 30%
+    }
 }
 
 @media screen and (max-width: 780px) {
+    .flex-container {
+        gap: 25px;
+    }
     .receta {
         width: 40%;
+    }
+    .contenido-receta,
+    .link-receta {
+        border-radius: 15px;
     }
 }
 
@@ -98,7 +120,20 @@ body {
     .flex-container {
         flex-direction: column;
     }
+    .contenido-receta,
+    .link-receta {
+        border-radius: 20px;
+    }
     .receta {
         width: 100%;
+    }
+}
+
+@keyframes mov_receta {
+    from {
+        width: 30%;
+    }
+    to {
+        width: 25%;
     }
 }
