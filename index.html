@@ -13,90 +13,89 @@
 
 <body>
     <header>
-        <nav>
-            <a class="refheader" href="index.html">Home</a>
-            <a class="refheader" href="acercaDe.html">¿Quienes somos?</a>
-            <a class="refheader" href="contacto.html">Contacto</a>
-            <a class="refheader" href="suscripcion.html">Suscripcion</a>
-            <br>
-            <h1 id="titulo">Recetario de Alicia</h1>
-            <br>
-        </nav>
+        <br>
+        <h1 class="titulo_ppal">Recetario de Alicia</h1>
+        <br>
     </header>
+    <nav>
+        <a class="ref_nav" href="index.html">Home</a>
+        <a class="ref_nav" href="acercaDe.html">¿Quienes somos?</a>
+        <a class="ref_nav" href="contacto.html">Contacto</a>
+        <a class="ref_nav" href="suscripcion.html">Suscripcion</a>
+    </nav>
 
     <main>
-        <br>
-        <!--Desayunos-->
-        <li class="list_format_index">
-
+        <div class="flex-container">
             <h2 class="h2index">Desayuno</h2>
-            <div>
-                <h3 class="nom_recetas" class=" animate__animated animate__bounce ">Pancakes</h3>
-                <br>
-                <img src="img/pancakes.jpg" alt="Pancakes" width="250">
-                <p class="rec">Receta aquí: <a href="recetaPanCakes.html">Click</a> </p>
-            </div>
-            <div>
-                <h3 class="nom_recetas" class="animate__animated animate__bounce ">Lemonies</h3>
-                <br>
-                <img src="img/lemonies.jpg " alt="Lemonies " width="250">
-                <p class="rec">Receta aquí: <a href="recetaLemonies.html">Click</a> </p>
-            </div>
-            <div>
-                <h3 class="nom_recetas" class=" animate__animated animate__bounce ">Pepas</h3>
-                <br>
-                <img src="img/pepas.jpg " alt="Pepas " width="250">
-                <p class="rec">Receta aquí: <a href="recetaPepas.html">Click</a> </p>
-            </div>
-        </li>
-        <br>
-        <!--Almuerzos-->
-        <li class="list_format_index">
-            <h2 class="h2index">Comidas</h2>
-            <div>
-                <h3 class="nom_recetas" class=" animate__animated animate__bounce ">Ñoquis de papa</h3>
-                <br>
-                <img src="img/ñoquis.jpg " alt="Ñoquis de papa" width="250">
-                <p class="rec">Receta aquí: <a href="recetaNioquis.html">Click</a> </p>
-            </div>
-            <div>
-                <h3 class="nom_recetas" class="animate__animated animate__bounce ">Pizza</h3>
-                <br>
-                <img src="img/pizza.jpg " alt="Pizza" width="250">
-                <p class="rec">Receta aquí: <a href="recetaPizza.html">Click</a> </p>
-            </div>
-            <div>
-                <h3 class="nom_recetas" class=" animate__animated animate__bounce ">Empanadas de carne</h3>
-                <br>
-                <img src="img/empanadas.jpg " alt="Empanadas" width="250">
-                <p class="rec">Receta aquí: <a href="recetasEmpanadas.html">Click</a> </p>
-            </div>
-        </li>
-        <br>
-        <!--Postres-->
-        <li class="list_format_index">
-            <h2 class="h2index">Postres</h2>
-            <div>
-                <h3 class="nom_recetas" class=" animate__animated animate__bounce ">Torta Cabsha</h3>
-                <br>
-                <img src="img/cabsha.jpg " alt="Torta Cabsha " width="250">
-                <p class="rec">Receta aquí: <a href="recetaCabsha.html">Click</a> </p>
-            </div>
-            <div>
-                <h3 class="nom_recetas" class="animate__animated animate__bounce ">Chocotorta</h3>
-                <br>
-                <img src="img/chocotorta.jpg " alt="Chocotorta" width="250">
-                <p class="rec">Receta aquí: <a href="recetaChocotorta.html">Click</a> </p>
-            </div>
-            <div>
-                <h3 class="nom_recetas" class=" animate__animated animate__bounce ">Tarta de ciruela</h3>
-                <br>
-                <img src="img/tartaCiruela.jpg " alt="Tarta de ciruela" width="250">
-                <p class="rec">Receta aquí: <a href="recetaCabsha.html">Click</a> </p>
-            </div>
-        </li>
-        <br>
 
+            <div class="receta">
+                <p class="textos">Pancakes</p>
+                <a class="link-receta" href="recetaPanCakes.html">
+                    <div class="contenido-receta" style="background-image: url('img/pancakes.jpg')"></div>
+                </a>
+            </div>
+
+            <div class="receta">
+                <p class="textos">Lemonies</p>
+                <a class="link-receta" href="recetaLemonies.html">
+                    <div class="contenido-receta" style="background-image: url('img/lemonies.jpg')"></div>
+                </a>
+            </div>
+
+            <div class="receta">
+                <p class="textos">Pepas</p>
+                <a class="link-receta" href="recetaPepas.html">
+                    <div class="contenido-receta" style="background-image: url('img/pepas.jpg')"></div>
+                </a>
+            </div>
+
+            <h2 class="h2index">Comidas</h2>
+
+            <div class="receta">
+                <p class="textos">Ñoquis</p>
+                <a class="link-receta" href="recetaNioquis.html">
+                    <div class="contenido-receta" style="background-image: url('img/ñoquis.jpg')"></div>
+                </a>
+            </div>
+
+            <div class="receta">
+                <p class="textos">Pizza</p>
+                <a class="link-receta" href="recetaPizza.html">
+                    <div class="contenido-receta" style="background-image: url('img/pizza.jpg')"></div>
+                </a>
+            </div>
+
+            <div class="receta">
+                <p class="textos">Empanadas</p>
+                <a class="link-receta" href="recetasEmpanadas.html">
+                    <div class="contenido-receta" style="background-image: url('img/empanadas.jpg')"></div>
+                </a>
+            </div>
+
+
+            <h2 class="h2index">Postres</h2>
+
+            <div class="receta">
+                <p class="textos">Torta Cabsha</p>
+                <a class="link-receta" href="recetaCabsha.html">
+                    <div class="contenido-receta" style="background-image: url('img/cabsha.jpg')"></div>
+                </a>
+            </div>
+
+            <div class="receta">
+                <p class="textos">Chocotorta</p>
+                <a class="link-receta" href="recetaChocotorta.html">
+                    <div class="contenido-receta" style="background-image: url('img/chocotorta.jpg')"></div>
+                </a>
+            </div>
+
+            <div class="receta">
+                <p class="textos">Tarta de ciruela</p>
+                <a class="link-receta" href="recetaTartaCiruela.html">
+                    <div class="contenido-receta" style="background-image: url('img/tartaCiruela.jpg')"></div>
+                </a>
+            </div>
+        </div>
     </main>
     <br>
     <footer>

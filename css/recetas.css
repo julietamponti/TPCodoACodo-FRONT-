@@ -1,0 +1,95 @@
+header {
+    background-color: rgb(128, 35, 73);
+    text-align: left;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(56, 15, 32);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(128, 35, 73);
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+body {
+    background-color: pink;
+}
+
+.titulo_ppal {
+    /*html todos --> recetario de alicia*/
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 250%;
+}
+
+#footText {
+    text-align: center;
+    color: white;
+}
+
+.ref_nav:hover {
+    /*html todos en la barra de navevacion*/
+    color: pink;
+}
+
+.tituloRecetas {
+    /*En los html de cada receta*/
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.main_recetas {
+    /*En los html de cada receta*/
+    text-align: center;
+}
+
+.h2_recetas {
+    /*En los html de cada receta*/
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
+}
+
+.tabla_ingredientes {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.listado_pasos {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.li_paso {
+    text-align: left;
+}
+
+@media screen and (max-width: 520px) {
+    nav,
+    .flex-container {
+        flex-direction: column;
+    }
+    .receta_conteiner {
+        width: 100%;
+    }
+}

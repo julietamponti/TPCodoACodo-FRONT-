@@ -32,27 +32,6 @@ body {
     color: white;
 }
 
-.receta {
-    height: 320px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
-
-.flex_container {
-    margin: 0 auto;
-    padding: 50px;
-    border: 1px solid pink;
-    background: pink;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: space-between;
-    gap: 20px;
-}
-
 .titulo_ppal {
     /*html todos --> recetario de alicia*/
     text-align: center;
@@ -66,31 +45,13 @@ body {
     color: pink;
 }
 
-.contenido-receta,
-.link-receta {
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-    width: 100;
-}
-
-.textos {
-    color: rgb(56, 15, 32);
-    font-family: Verdana;
-}
-
-.h2index {
-    width: 100%;
-    color: rgb(47, 4, 22);
-}
-
-@media screen and (max-width: 780px) {
-    .receta {
-        width: 40%;
-    }
+#mapa {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border: 0;
+    display: block;
 }
 
 @media screen and (max-width: 520px) {
@@ -98,7 +59,7 @@ body {
     .flex-container {
         flex-direction: column;
     }
-    .receta {
+    .receta_conteiner {
         width: 100%;
     }
 }
