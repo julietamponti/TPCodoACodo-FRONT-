@@ -24,7 +24,7 @@ footer {
 }
 
 body {
-    background-color: #f2e5b2;
+    background-color: #c79797;
 }
 
 #footText {
@@ -48,7 +48,7 @@ body {
     margin: 0 auto;
     padding: 50px;
     border: 1px solid pink;
-    background: #f2e5b2;
+    background: #c79797;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
